@@ -77,6 +77,10 @@ button a:hover {
   text-decoration: none;
 }
 
+video {
+  max-width: 100vw;
+}
+
 .play-pause-button {
   background-color: var(--bg-color);
   font: inherit;
