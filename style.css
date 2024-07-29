@@ -34,6 +34,8 @@ body {
 
 .container {
   width: 800px;
+  padding-left: 5px;
+  padding-right: 5px;
   display: flex;
   flex-direction: column;
 }
@@ -78,7 +80,9 @@ button a:hover {
 }
 
 video {
-  max-width: 100vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  max-width: 95vw;
 }
 
 .play-pause-button {
@@ -246,8 +250,8 @@ nav a:hover {
 
 .mobile-nav {
   margin-right: 10px;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   display: none;
   filter: invert(90%);
 }
